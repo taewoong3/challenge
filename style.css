@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,500;1,400&display=swap");
+
+/* components */
+@import "components/status-bar.css";
+@import "components/reset.css";
+@import "components/variable.css";
+
+/* screens */
+@import "screens/game-world__header.css";
+@import "screens/login-form.css";
+@import "screens/culture.css";
+@import "screens/store.css";
+
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.index-body {
+  height: 100vh;
+  background-color: #501c11;
+  background-image: url(img/3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.main-screen {
+  padding: 0px 100px;
+}
+
+.store-body {
+  background-color: #f5f5f7;
+  height: 1000vh;
+  overflow: auto;
+}
