@@ -6,6 +6,19 @@
   font-size: 18px;
   margin-bottom: 15px;
   margin-top: -15px;
+  animation: warningAlert 1s linear infinite;
+}
+
+@keyframes warningAlert {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: var(--yellow-color);
+  }
+  100% {
+    background-color: red;
+  }
 }
 
 #friends-display-link i {

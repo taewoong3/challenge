@@ -125,6 +125,7 @@ table {
 
 input {
   border: none;
+  background-color: inherit;
 }
 
 input:focus {
